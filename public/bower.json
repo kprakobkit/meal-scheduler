@@ -1,0 +1,20 @@
+{
+  "name": "meal-scheduler",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kprakobkit/meal-scheduler",
+  "authors": [
+    "Peter Prakobkit <kprakobkit@gmail.com>"
+  ],
+  "description": "meal-schdeuler app",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
