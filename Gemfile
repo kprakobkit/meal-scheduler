@@ -30,7 +30,10 @@ gem 'spring',        group: :development
 gem 'dotenv-rails', group:  [:development, :test]
 
 # Yummly Gem
-gem 'yummly', group:  [:development, :test]
+gem 'yummly'
+
+# PostgreSQL
+gem 'pg', group: :production
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
