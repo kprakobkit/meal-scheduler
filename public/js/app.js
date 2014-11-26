@@ -1,3 +1,7 @@
 $(document).ready(function(){
-  console.log('hi');
+  $('form').submit(function(e) {
+    e.preventDefault();
+    var data = $(this).serialize();
+    console.log(data);
+  });
 });
